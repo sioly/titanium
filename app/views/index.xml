@@ -1,0 +1,14 @@
+<Alloy>
+    <Collection src="model"/> <!-- initalisation du model -->
+    <Window class="container">
+        <TableView dataCollection="model"> <!-- appel du model -->
+            <TableViewRow title="{title}" description="{description}" category="{category}" price="{price}" onClick="show"></TableViewRow>
+        </TableView>
+        <Menu id="menu" platform="android">
+            <MenuItem
+            title="Add a add7"
+            onClick="add"
+            showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
+        </Menu>
+    </Window>
+</Alloy>

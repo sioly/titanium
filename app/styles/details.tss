@@ -1,0 +1,29 @@
+".container[platform=ios]": {
+	backgroundColor: 'white'
+}
+"#titleLabel": {
+    font: {
+        fontSize: '30'
+    },
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+"#descriptionLabel": {
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+}
+
+"#categoryLabel": {
+    font: {
+        fontSize: '10'
+    },
+    left: '10'
+}
+
+"#priceLabel": {
+    font: {
+        fontSize: '10'
+    },
+    left: '10'
+}
