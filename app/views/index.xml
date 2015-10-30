@@ -6,7 +6,7 @@
         </TableView>
         <Menu id="menu" platform="android">
             <MenuItem
-            title="Add a add7"
+            title="Add a add"
             onClick="add"
             showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
         </Menu>
